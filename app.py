@@ -19,7 +19,7 @@ Base.prepare(engine, reflect=True)
 print(Base.classes.keys())
 
 # Save reference to the table
-measurement = Base.classes.measurement
+Measurements = Base.classes.measurement
 
 #################################################
 # Flask Setup
